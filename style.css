@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #ffffff;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+    height: 350px;
+    width: 500px;
+}
+
+.s-input {
+    padding: 8px 4px;
+    font-family: Roboto, arial;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    color:black;
+    border-bottom: 1px solid #007FF4;
+    margin: 50px 20px 30px 40px;
+    outline: none;
+}
+
+.s-btn {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.gen-value {
+    border-radius: 4px;
+    padding: 8px 26px;
+    background-image: linear-gradient(to right, #13547A, #80D0C7);
+    color: #000;
+    border: none;
+    text-transform: uppercase;
+    transition: 250ms ease;
+    outline: none;
+    box-shadow: none;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    width: 180px;
+}
+
+.gen-value:hover {
+    opacity: 0.80;
+}
+
+.gen-value:active {
+    transform: scale(0.9);
+}
+
+#barcode {
+    margin: 30px auto auto 130px;
+}
